@@ -10,7 +10,7 @@ var win=0;
 
 
 if ( argv.help ) {
-    console.log('\tUsage:\tnode coinGameStat.js [log_file]\n\tWhere:\log_file - path to the log file for analysis.\n\tIf the logFile is not specified uses ./logs/coinGameLog');
+    console.log('\Использование:\tnode stat_coin_game.js [log_file]\n\Где:\log_file - Место файла для анализа.\n\tЕсли не указан используется путь ./logs/log_coin');
     process.exit();
 }
 else {

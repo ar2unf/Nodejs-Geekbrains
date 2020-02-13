@@ -30,8 +30,12 @@ function get_news() {
                     console.log(message[i]);
                     console.log(`${i+1}. ${$('.news-feed__item__title').eq(i).text().trim()}`);
                 }
+                res(message);
+            }else{
+                rej('Что то пошло не так!')
             }
-            res(message);
+            
+            
         });
     })
 }

@@ -1,0 +1,35 @@
+{
+  "name": "hw4",
+  "version": "1.0.0",
+  "description": "testings",
+  "main": "news.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar2unf/Nodejs-Geekbrains.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "geekbarains"
+  ],
+  "author": "ar2unf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ar2unf/Nodejs-Geekbrains/issues"
+  },
+  "homepage": "https://github.com/ar2unf/Nodejs-Geekbrains#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.3",
+    "parser": "^0.1.4",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "xml2js": "^0.4.23"
+  }
+}

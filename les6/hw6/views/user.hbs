@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<div>
+    <h1>Пользователь: {{username}}</h1>
+    Возраст: {{age}}
+
+    {{#if skils}}
+    <ul>
+        {{#each skils}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    {{/if}}
+</div>
+
+<h2>Form for Homework</h2>
+<form method="POST" action="/testform">
+    <input type="text" name="param1" placeholder="Сколько новостей показывать">
+    <input type="submit">
+</form>

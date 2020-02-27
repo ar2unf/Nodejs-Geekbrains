@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<h1>Обновление задачи</h1>
+<form action="/tasks/update" method="POST">
+<input type="hidden" name="id" value="{{id}}">
+<input type="text" name="title" value="{{title}}" placeholder="Введите название задачи" />
+<input type="submit" value="Сохранить изменения">
+</form>

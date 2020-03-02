@@ -1,0 +1,18 @@
+<div>
+    <h1>Пользователь: {{username}}</h1>
+    Возраст: {{age}}
+
+    {{#if skils}}
+    <ul>
+        {{#each skils}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+    {{/if}}
+</div>
+
+<h2>Form for Homework</h2>
+<form method="POST" action="/testform">
+    <input type="text" name="param1" placeholder="Сколько новостей показывать">
+    <input type="submit">
+</form>
